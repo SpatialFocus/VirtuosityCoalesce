@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30914.41
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtuosityCoalesce", "VirtuosityCoalesce\VirtuosityCoalesce.csproj", "{62238A53-98C3-4AED-A613-2DFE35F4BD6D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C0997F20-AD4A-4A86-B476-C68CC144D6D9} = {C0997F20-AD4A-4A86-B476-C68CC144D6D9}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C151263C-CC6D-4EE7-B068-85C6F858DED8}"
 	ProjectSection(SolutionItems) = preProject

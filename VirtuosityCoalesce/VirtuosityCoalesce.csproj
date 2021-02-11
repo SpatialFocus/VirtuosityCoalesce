@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
@@ -10,7 +10,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\VirtuosityCoalesce.Assembly\VirtuosityCoalesce.Assembly.csproj" />
+		<Reference Include="VirtuosityCoalesce.Assembly">
+			<HintPath>..\VirtuosityCoalesce.Assembly\bin\$(configuration)\$(targetframework)\VirtuosityCoalesce.Assembly.dll</HintPath>
+		</Reference>
 	</ItemGroup>
 
 </Project>
